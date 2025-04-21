@@ -18,6 +18,8 @@ const register = async (page, user) => {
 	await page.getByRole('button', { name: 'Sign up' }).click();
 };
 
+//
+
 const getRandomUser = () => {
 	const people = {
 		email: faker.internet.email(),
